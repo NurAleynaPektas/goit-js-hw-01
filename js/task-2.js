@@ -4,10 +4,12 @@ function getShippingMessage(country, price, deliveryFee) {
 }
 
 
-getShippingMessage("Australia", 120, 50)
+getShippingMessage("Australia", 120, 50);
+getShippingMessage("Germany", 80, 20);
+getShippingMessage("Sweden", 100, 20);
 
 
-function getShippingMessage(country, price, deliveryFee) {
+/*function getShippingMessage(country, price, deliveryFee) {
     let totalPrice = price + deliveryFee;
    console.log(`"Shipping to ${country} will cost ${totalPrice} credits"`)
 }
@@ -21,4 +23,4 @@ function getShippingMessage(country, price, deliveryFee) {
 }
 
 
-getShippingMessage("Sweden",100,20)
+getShippingMessage("Sweden",100,20)*/

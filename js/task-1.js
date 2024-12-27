@@ -4,8 +4,10 @@ function makeTransaction(quantity, pricePerDroid) {
     
 }
 makeTransaction(5, 3000);
+makeTransaction(3, 1000);
+makeTransaction(10,500);
 
-function makeTransaction(quantity, pricePerDroid) {
+/*function makeTransaction(quantity, pricePerDroid) {
     let totalPrice = quantity * pricePerDroid;
     console.log(`You ordered ${quantity} droids worth ${totalPrice} credits!"`)  
     
@@ -17,4 +19,4 @@ function makeTransaction(quantity, pricePerDroid) {
     console.log(`You ordered ${quantity} droids worth ${totalPrice} credits!"`)  
     
 }
-makeTransaction(10,500);
+makeTransaction(10,500);*/
